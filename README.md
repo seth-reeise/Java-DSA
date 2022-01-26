@@ -1,2 +1,2 @@
 # Java-DSA
-Repo for practing data structures and algorithims in Java
+Repo for practicing data structures and algorithims in Java
