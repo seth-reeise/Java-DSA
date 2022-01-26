@@ -22,5 +22,7 @@ public class Main {
         linkedList.addToEnd(55);
 
         System.out.println(linkedList.toStringBuilder());
+
+        linkedList.findNode(99);
     }
 }

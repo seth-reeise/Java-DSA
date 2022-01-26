@@ -51,6 +51,20 @@ public class MyLinkedList {
         tmp.next = newNode;
     }
 
+    // Find node from value given
+    void findNode(int value) {
+        Node tmp = head;
+
+        while (tmp.next != null) {
+            if (tmp.value == value) {
+                System.out.println("Found node with with value of: " + tmp.value);
+                return;
+            }
+            tmp = tmp.next;
+        }
+        System.out.println("Node not found");
+    }
+
     public StringBuilder toStringBuilder() {
         Node tmp = head;
         StringBuilder result = new StringBuilder();
